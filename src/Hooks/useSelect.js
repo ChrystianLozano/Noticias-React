@@ -10,7 +10,7 @@ const useSelect = (stateInicial, opciones) => {
         <select
             className="browser-default"
             onChange={e=> actualizarState(e.target.value)}
-            
+            value = {state}
         >
 
             {opciones.map(opcion => (
